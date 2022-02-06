@@ -1,0 +1,79 @@
+.table1 {
+    border: 2px solid red;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.tr1 {
+    border: 2px solid yellow;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-collapse: collapse;
+}
+
+.table2 {
+    border: 2px solid gray;
+    height: 200px;
+    width: 200px;
+    border-spacing: 10px;
+}
+
+.tr2 {
+    border: 2px solid yellow;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+
+.table3 {
+    border: 2px solid gray;
+    height: 200px;
+    width: 200px;
+    border-spacing: 20px;
+}
+
+.tr3 {
+    border: 2px solid yellow;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+
+.table4 {
+    border: 2px solid gray;
+    height: 200px;
+    width: 200px;
+    border-spacing: 20px;
+}
+
+.tr4 {
+    border: 2px solid yellow;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    empty-cells: hide;
+}
+
+
+/* здесь у меня не работал эмти селл */
+
+.table5 {
+    border: 2px solid gray;
+    height: 200px;
+    width: 200px;
+    border-spacing: 20px;
+}
+
+.tr5 {
+    border: 2px solid yellow;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    /* vertical-align не работает((( */
+}
+
+ul:before {
+    content: counter(.);
+}
